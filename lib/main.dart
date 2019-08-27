@@ -22,6 +22,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false)
   }
+}
 
 class MyApp extends StatefulWidget {
   @override
