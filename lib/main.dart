@@ -8,7 +8,20 @@ import './screens/filters_screen.dart';
 import './screens/categories_screen.dart';
 import './models/meal.dart';
 
-void main() => runApp(MyApp());
+void main() {
+  runApp(
+    new MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: MyApp(),
+    ),
+  );
+}
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false)
+  }
 
 class MyApp extends StatefulWidget {
   @override
