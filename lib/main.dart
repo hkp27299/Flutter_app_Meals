@@ -16,16 +16,12 @@ void main() {
     ),
   );
 }
-class MyApp extends StatelessWidget {
+class MyApp extends StatefulWidget {
   @override
-  Widget build(BuildContext context) {
+    Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false)
   }
-}
-
-class MyApp extends StatefulWidget {
-  @override
   _MyAppState createState() => _MyAppState();
 }
 
