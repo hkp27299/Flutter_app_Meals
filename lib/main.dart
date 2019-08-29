@@ -18,7 +18,6 @@ void main() {
 }
 class MyApp extends StatefulWidget {
   @override
-    Widget build(BuildContext context) {
   _MyAppState createState() => _MyAppState();
 }
 
